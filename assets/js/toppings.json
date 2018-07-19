@@ -1,0 +1,50 @@
+toppings = [
+    {
+      "name": "Basil",
+      "image": "assets/images/basil.png",
+    },
+    {
+      "name": "Black Olives",
+      "image": "assets/images/blackOlives.png",
+    },
+    {
+      "name": "Green Pepper",
+      "image": "assets/images/greenPepper.png",
+    },
+    {
+      "name": "Meat",
+      "image": "assets/images/meat.png",
+    },
+    {
+      "name": "Mushrooms",
+      "image": "assets/images/mushrooms.png",
+    },
+    {
+      "name": "Olives",
+      "image": "assets/images/olives.png",
+    },
+    {
+      "name": "Onion",
+      "image": "assets/images/onion.png",
+    },
+    {
+      "name": "Pepperoni",
+      "image": "assets/images/pepperoni.png",
+    },
+    {
+      "name": "Pinnaple",
+      "image": "assets/images/pinnaple.png",
+    },
+    {
+      "name": "Red Pepper",
+      "image": "assets/images/redPepper.png",
+    },
+    {
+      "name": "Salami",
+      "image": "assets/images/salami.png",
+    },
+    {
+      "name": "Tomato",
+      "image": "assets/images/tomato.png",
+    }
+  ]

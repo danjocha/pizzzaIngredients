@@ -1,0 +1,96 @@
+.body {
+  padding: 0;
+  margin: 0;
+  background: #f7f7f7;
+  color: #404040;
+  font: 400 14px system-ui;
+}
+
+.body h1 {
+  padding: 10px;
+}
+
+.body .menu {
+  width: 100%;
+  background: #ececec;
+  padding: 14px;
+  border: 1px solid #CCC;
+  position: relative;
+}
+
+.body .menu button {
+  background: #CCC;
+  padding: 15px;
+  border: 1px solid #afadad;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.body .menu .addTopping {
+  display: inline-block;
+}
+
+.body .content {
+  background: #FFF;
+  text-align: center;
+}
+
+#toppingsContainer {
+  width: 600px;
+  height: 732px;
+  background: url(../images/base.png);
+  margin: 0 auto;
+  background-size: contain;
+  position: relative;
+}
+
+#toppingsContainer .topping {
+  width: 45px;
+  position: absolute;
+}
+
+
+#menuToppings {
+  display: none;
+  position: absolute;
+  background: #57c;
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.5019607843137255) 1px 4px 3px 1px;
+  margin-top: -1px;
+}
+
+#menuToppings li {
+  margin: 0;
+  list-style: none;
+}
+
+#menuToppings li a {
+  color: #FFF;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#menuToppings.opened {
+  display: block;
+}
+
+#addTopping {
+  background: #57c;
+  color: #fff;
+  border: 1px solid #4165bf;
+}
+
+#addTopping.opened {
+  background: #2454cc;
+  color: #fff;
+  border: 1px solid #1d47af;
+}
+
+#startOver {
+  background: #c55;
+  color: #fff;
+  border: 1px solid #ce2b2b;
+}
